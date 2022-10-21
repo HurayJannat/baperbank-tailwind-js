@@ -7,9 +7,9 @@ document.getElementById("btn-submit").addEventListener('click', function () {
 
     if (email === "huray" && password === "dipty")
     {
-        console.log("correct password");
+        window.location.href = "bank.html";
     }
     else {
-        console.log("wrong password");
+        alert("Wrong Username or Password");
     }
 })
